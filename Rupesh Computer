@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="hi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rupesh Computer — ऑनलाइन सेवा केंद्र (Online Center)</title>
+  <meta name="description" content="Rupesh Computer — ऑनलाइन सेवा केंद्र: सरकारी फॉर्म भरना, शपथपत्र/ई-डिस्ट्रिक्ट, आधार/पैन/वोटर अपडेट, बिल भुगतान, बैंकिंग (AEPS), शाला/स्कॉलरशिप, श्रम विभाग सेवाएँ" />
+  <meta name="keywords" content="Online Center, CSC, eDistrict, Aadhaar, PAN, Voter, PM Kisan, Ayushman, AEPS, Bill Payment, Scholarship, Shram Vibhag, Narayanpur" />
+  <style>
+    /* Simple responsive styling (single file). Change colors/brand as needed */
+    :root{--accent:#0b74db;--dark:#111;--muted:#666}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;padding:0;margin:0;color:var(--dark);line-height:1.45}
+    header{background:linear-gradient(90deg,#0b74db 0%,#2aa5ff 100%);color:#fff;padding:18px 16px}
+    .container{max-width:1100px;margin:0 auto;padding:18px}
+    .brand{display:flex;align-items:center;gap:12px}
+    .brand h1{font-size:20px;margin:0}
+    nav{margin-top:8px}
+    nav a{color:rgba(255,255,255,0.95);text-decoration:none;margin-right:12px;font-weight:600}
+    .hero{display:flex;flex-wrap:wrap;gap:18px;align-items:center;padding:36px 0}
+    .hero .left{flex:1;min-width:260px}
+    .hero h2{font-size:28px;margin:0 0 12px}
+    .cta{display:inline-block;background:#fff;color:var(--accent);padding:10px 16px;border-radius:8px;font-weight:700;text-decoration:none}
+    .services{background:#f7f9ff;padding:26px 0}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+    .card{background:#fff;padding:14px;border-radius:10px;box-shadow:0 1px 4px rgba(16,24,40,0.06)}
+    .price{font-size:18px;font-weight:800;color:var(--accent)}
+    section h3{margin-top:0}
+    .contact{padding:18px 0}
+    label{display:block;margin:8px 0 6px;font-weight:700}
+    input,textarea,select{width:100%;padding:10px;border-radius:8px;border:1px solid #ddd}
+    button{background:var(--accent);color:#fff;border:none;padding:10px 14px;border-radius:8px;font-weight:700;cursor:pointer}
+    footer{background:#111;color:#fff;padding:18px;margin-top:26px}
+    .small{font-size:13px;color:var(--muted)}
+    @media(max-width:700px){.hero{padding:18px 0}.hero h2{font-size:22px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div class="brand">
+        <div style="width:48px;height:48px;border-radius:8px;background:#fff;display:flex;align-items:center;justify-content:center;color:var(--accent);font-weight:800">RC</div>
+        <div>
+          <h1>Rupesh Computer</h1>
+          <div class="small">ऑनलाइन सेवा केंद्र • फॉर्म भरना • बिल भुगतान</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#services">सेवाएँ</a>
+        <a href="#labour">श्रम विभाग</a>
+        <a href="#pricing">प्राइस</a>
+        <a href="#contact">संपर्क</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="left">
+        <h2>आपके गाँव का भरोसेमंद <u>ऑनलाइन सेवा केंद्र</u></h2>
+        <p class="small">सरकारी/अर्ध-सरकारी फॉर्म, आय-जाति-निवास प्रमाणपत्र, आधार/पैन/वोटर अपडेट, बिल भुगतान, बैंकिंग (AEPS) और शैक्षिक/स्कॉलरशिप फॉर्म — एक ही जगह।</p>
+        <p style="margin:12px 0"><a class="cta" href="#contact">अभी सेवा लें</a></p>
+        <ul class="small">
+          <li>WhatsApp बुकिंग: <strong><a href="https://wa.me/919691108726" target="_blank" rel="noopener">+91-9691108726</a></strong></li>
+          <li>डॉक्यूमेंट स्कैन/प्रिंट की सुविधा</li>
+        </ul>
+      </div>
+      <div style="flex:1;min-width:260px">
+        <div style="background:#f3f7ff;border-radius:10px;padding:12px">
+          <h3>मुख्य सेवाएँ</h3>
+          <div class="grid">
+            <div class="card"><strong>eDistrict / प्रमाणपत्र</strong><div class="small">आय, जाति, निवास, जन्म/मृत्यु</div></div>
+            <div class="card"><strong>आधार / पैन / वोटर</strong><div class="small">अपडेट, नया पंजीयन, PVC/EPIC</div></div>
+            <div class="card"><strong>बैंकिंग / AEPS</strong><div class="small">कैश निकासी, बैलेंस, ट्रांसफर</div></div>
+            <div class="card"><strong>योजना / स्कॉलरशिप</strong><div class="small">PM-Kisan, आयुष्मान, NSP</div></div>
+            <div class="card"><strong>बिल/रीचार्ज/टिकट</strong><div class="small">बिजली, गैस, DTH, IRCTC</div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="container">
+        <h3>हमारी ऑनलाइन सेवाएँ</h3>
+        <div class="grid">
+          <div class="card">
+            <h4>eDistrict / प्रमाणपत्र</h4>
+            <p class="small">आय, जाति, निवास, जन्म/मृत्यु प्रमाणपत्र, चरित्र प्रमाणपत्र, ई-स्टांप / शपथपत्र ड्राफ्ट/सबमिशन।</p>
+          </div>
+          <div class="card">
+            <h4>आधार / पैन / वोटर</h4>
+            <p class="small">आधार अपडेट (डेमोग्राफिक/एड्रेस), PVC ऑर्डर; पैन नया/अपडेट (NSDL/UTI), ई-पैन; वोटर ID नया/सुधार/एड्रेस ट्रांसफर, EPIC डाउनलोड।</p>
+          </div>
+          <div class="card">
+            <h4>बैंकिंग / AEPS</h4>
+            <p class="small">आधार आधारित कैश निकासी, बैलेंस इन्क्वायरी, मिनी-स्टेटमेंट, DMT (Domestic Money Transfer), मिनी KYC/ ekyc प्रिंट।</p>
+          </div>
+          <div class="card">
+            <h4>योजना / सामाजिक सुरक्षा</h4>
+            <p class="small">PM-Kisan रजिस्ट्रेशन/KYC, आयुष्मान कार्ड, पेंशन (वृद्ध/विधवा/दिव्यांग) आवेदन, राशन कार्ड/एनFSA, LPG/उज्ज्वला सम्बंधित कार्य।</p>
+          </div>
+          <div class="card">
+            <h4>शिक्षा / स्कॉलरशिप</h4>
+            <p class="small">NSP/राज्य छात्रवृत्ति, कॉलेज/ITI/पॉलिटेक्निक/एडमिशन फॉर्म, प्रतियोगी परीक्षा फॉर्म भरना, परिणाम/एडमिट कार्ड डाउनलोड।</p>
+          </div>
+          <div class="card">
+            <h4>परिवहन / पुलिस / न्याय</h4>
+            <p class="small">ड्राइविंग लाइसेंस आवेदन/स्लॉट बुकिंग, गाड़ी सेवाएँ (RC, HSRP), पुलिस वेरिफिकेशन/PCC/चरित्र प्रमाणपत्र, कोर्ट फीस ई-स्टांप।</p>
+          </div>
+          <div class="card">
+            <h4>बिल भुगतान / रिचार्ज</h4>
+            <p class="small">बिजली, पानी, गैस, DTH/मोबाइल रिचार्ज, FASTag, टिकट (IRCTC/बस) बुकिंग सहायता।</p>
+          </div>
+          <div class="card">
+            <h4>डॉक्यूमेंट / स्टेशनरी</h4>
+            <p class="small">स्कैन, टाइपिंग, प्रिंट/फोटोकॉपी, पासपोर्ट साइज फोटो, लैमिनेशन, फोटो-टू-PDF/कम्प्रेस।</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" style="padding:18px 0">
+      <h3>इंडिकेटिव सर्विस चार्ज</h3>
+      <div class="grid">
+        <div class="card"><div class="price">₹20–₹50</div><div class="small">प्रिंट/स्कैन/फोटो-टू-PDF (प्रति पेज/कार्य)</div></div>
+        <div class="card"><div class="price">₹50–₹150</div><div class="small">साधारण ऑनलाइन फॉर्म (जैसे बिल भुगतान/रिचार्ज)</div></div>
+        <div class="card"><div class="price">₹150–₹300</div><div class="small">eDistrict/प्रमाणपत्र/वोटर/पैन आवेदन</div></div>
+        <div class="card"><div class="price">₹200–₹400</div><div class="small">पेंशन/आयुष्मान/PM-Kisan/स्कॉलरशिप फॉर्म</div></div>
+        <div class="card"><div class="price">₹300–₹600</div><div class="small">ड्राइविंग लाइसेंस/पासपोर्ट/IRCTC जैसी जटिल सेवाएँ</div></div>
+      </div>
+      <p class="small" style="margin-top:8px">नोट: सरकारी फीस अलग से; अंतिम चार्ज दस्तावेज़/समय/जटिलता पर निर्भर।</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h3>संपर्क करें / बुकिंग</h3>
+      <form action="https://formspree.io/f/mayvlwrl" method="POST">
+        <label>नाम</label>
+        <input name="name" required placeholder="आपका नाम" />
+        <label>फ़ोन / WhatsApp</label>
+        <input name="phone" required placeholder="+91-9691108726" />
+        <label>ईमेल</label>
+        <input type="email" name="email" placeholder="rupeshcomputer.tech@gmail.com" />
+        <label>सेवा का विकल्प</label>
+        <select name="service">
+          <option>लैपटॉप रिपेयर</option>
+          <option>प्रिंटिंग / फोटो</option>
+          <option>कम्प्यूटर कोर्स</option>
+          <option>अन्य</option>
+        </select>
+        <label>संदेश</label>
+        <textarea name="message" rows="4" placeholder="संक्षेप में समस्या या अनुरोध लिखें"></textarea>
+        <div style="margin-top:10px"><button type="submit">बुक करें / भेजें</button></div>
+      </form>
+      <p class="small" style="margin-top:10px">या WhatsApp पर लिखें: <strong><a href="https://wa.me/919691108726" target="_blank" rel="noopener">+91-9691108726</a></strong><br/>ईमेल: <strong><a href="mailto:rupeshcomputer.tech@gmail.com">rupeshcomputer.tech@gmail.com</a></strong></p>
+    </section>
+
+      <section id="labour" class="contact">
+      <h3>श्रम विभाग (Labour) सेवाएँ</h3>
+      <div class="grid">
+        <div class="card">
+          <h4>e‑Shram / असंगठित श्रमिक</h4>
+          <p class="small">e‑Shram कार्ड रजिस्ट्रेशन/अपडेट, UAN प्रिंट, बैंक सीडिंग, बीमा योजनाओं की जानकारी।</p>
+        </div>
+        <div class="card">
+          <h4>BOCW श्रमिक (निर्माण‑कामगार)</h4>
+          <p class="small">बोर्ड पंजीयन/नवीनीकरण, दस्तावेज़ अपलोड, बैंक/IFSC अपडेट, मातृत्व/शिक्षा/उपकरण सहायता योजनाओं के आवेदन।</p>
+        </div>
+        <div class="card">
+          <h4>दुकान एवं प्रतिष्ठान / श्रम लाइसेंस</h4>
+          <p class="small">शॉप एंड एस्टैब्लिशमेंट रजिस्ट्रेशन/नवीनीकरण, CLRA/परमिट आवेदन, मासिक/वार्षिक रिटर्न सबमिशन सहायता।</p>
+        </div>
+        <div class="card">
+          <h4>ESIC/EPFO सहायता</h4>
+          <p class="small">UAN एक्टिवेशन, KYC, पासबुक/नाम-संशोधन, ESIC e‑Pechan कार्ड डाउनलोड, नियोक्ता/कर्मचारी फ़ॉर्म अपलोड सहायता।</p>
+        </div>
+        <div class="card">
+          <h4>मजदूरी/न्यूनतम वेतन जागरूकता</h4>
+          <p class="small">योजनाओं/अधिकारों की जानकारी, हेल्पलाइन/शिकायत पोर्टल पर आवेदन में सहायता।</p>
+        </div>
+      </div>
+      <p class="small" style="margin-top:8px">नोट: उपलब्धता राज्य/जिला पोर्टल पर निर्भर; आवश्यक मूल दस्तावेज़ साथ लाएँ (आधार, बैंक पासबुक, फ़ोटो, कार्य प्रमाण आदि)।</p>
+    <p class="small" style="margin-top:6px; font-weight:600;">समय: सुबह 10:00 बजे से शाम 4:30 बजे तक (रविवार अवकाश)</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <div>
+          <strong>Rupesh Computer</strong>
+          <div class="small">Schoolpara, Taragaon, Narayanpur, Chhattisgarh - 494661</div>
+          <div class="small">मोबाइल: <a href="tel:+919691108726">+91-9691108726</a> · ईमेल: <a href="mailto:rupeshcomputer.tech@gmail.com">rupeshcomputer.tech@gmail.com</a></div>
+        </div>
+        </div>
+        <div class="small">© 2025 Rupesh Computer · Designed locally</div>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Small enhancement: optional client-side validation or GA later
+    // Replace phone number and Formspree endpoint before publishing.
+  </script>
+</body>
+</html>
